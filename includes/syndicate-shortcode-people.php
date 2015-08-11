@@ -94,8 +94,8 @@ class WSU_Syndicate_Shortcode_People extends WSU_Syndicate_Shortcode_Base {
 				<?php endif; ?>
 				<div class="wsuwp-person-name"><?php echo esc_html( $person->title ); ?></div>
 				<div class="wsuwp-person-position"><?php echo esc_html( $person->position_title ); ?></div>
-				<div class="wsuwp-person-office"><?php echo esc_html( $person->office ); ?></div>
-				<div class="wsuwp-person-email"><?php echo esc_html( $person->email ); ?></div>
+				<div class="wsuwp-person-email"><a href="mailto:<?php echo esc_html( $email ); ?>"><?php echo esc_html( $email ); ?></a></div>
+				<div class="wsuwp-person-phone"><a href="tel:<?php echo esc_html( $phone ); ?>"><?php echo esc_html( $phone ); ?></a></div>
 			</div>
 			<?php
 			$html = ob_get_contents();
