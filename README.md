@@ -1,3 +1,4 @@
-# WSU Content Syndicate
+# ChurchHub Syndicate
+A WordPress plugin to retrieve and display content from existing sites on a Church Hub
 
-A WordPress plugin to retrieve and display content from throughout Washington State University
+Integrates with All-in-One Event Calendar (requires a plugin on the syndicating site to open it up to REST API)
